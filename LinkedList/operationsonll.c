@@ -157,6 +157,7 @@ void display(void)
     }
 }
 void delete (void)
+
 {
     struct node *temp;
     temp = root;
@@ -189,4 +190,8 @@ void delete (void)
         q->link = NULL;
         free(q);
     }
+}
+
+void reverse()
+{
 }
