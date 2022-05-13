@@ -53,3 +53,6 @@ void display()
         temp = temp->right;
     }
 }
+void reverse()
+{
+}
