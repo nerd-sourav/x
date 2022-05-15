@@ -13,46 +13,69 @@ void append()
 {
 
     // the node which need to be added
-    struct node *temp, *newnode;
+    struct node *temp;
     // memory  allocated
-    newnode = (struct node *)malloc(sizeof(struct node *));
+    temp = (struct node *)malloc(sizeof(struct node));
     printf("Enter Data : ");
-    scanf("%d", &newnode->data);
+    scanf("%d", &temp->data);
 
     // we have now head and we have to perform operatuions on that
     // checking if the list is empty or not
-
     if (head == NULL)
     {
         head = temp;
     }
     else
     {
-        temp = head;
-        while (temp->link != NULL)
+        struct node *point;
+        point = head;
+        while (point->link != NULL)
         {
-            temp = temp->link;
+            point = point->link;
         }
-        temp->link = newnode;
+        point->link = temp;
     }
 }
-void main()
+void display()
+{
+    struct node *temp;
+    temp = head;
+    if (head == NULL)
+    {
+        printf("List is empty\n");
+    }
+    else
+    {
+        while (temp != NULL)
+        {
+            printf("%d", temp->data);
+            temp = temp->link;
+        }
+    }
+}
+int main()
 {
 
     int choice;
-
-    printf("1 : Append\n");
-
-    printf("Enter Choice : ");
-    scanf("%d", &choice);
-
-    switch (choice)
+    while (1)
     {
-    case 1:
-        append();
-        break;
+        printf("1 : Append\n");
+        printf("2 : Display\n");
 
-    default:
-        break;
+        printf("Enter Choice : ");
+        scanf("%d", &choice);
+
+        switch (choice)
+        {
+        case 1:
+            append();
+            break;
+        case 2:
+            display();
+            break;
+        default:
+            printf("Invalid operation\n");
+            break;
+        }
     }
 }
