@@ -194,5 +194,5 @@ void delete (void)
 
 void reverse()
 {
-    
+    Struct
 }
