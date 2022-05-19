@@ -42,7 +42,33 @@ void appendAtLoc()
         temp->link = current;
     }
 }
-
+void deleteAtLoc()
+{
+    struct node *current = head, *prev = NULL;
+    int loc;
+    printf("Enter location: ");
+    scanf("%d", &loc);
+    if (loc == 1)
+    {
+        struct node *current = head;
+        head = head->link;
+        current->link = NULL;
+        free(current);
+    }
+    else
+    {
+        int i = 1;
+        while (i < loc)
+        {
+            prev = current;
+            current = current->link;
+            i++;
+        }
+        prev->link = current->link;
+        current->link = NULL;
+        free(current);
+    }
+}
 void append()
 {
 
@@ -92,14 +118,19 @@ int main()
     int choice;
     while (1)
     {
-        printf("\n1 : Append\n");
+        printf("\n0 : Add at end \n");
+        printf("1 : Add at any location\n");
         printf("2 : Display\n");
+        printf("3 : Delete at any location\n");
 
         printf("Enter Choice : ");
         scanf("%d", &choice);
 
         switch (choice)
         {
+        case 0:
+            append();
+            break;
         case 1:
             appendAtLoc();
             break;
@@ -107,6 +138,9 @@ int main()
             display();
             break;
         case 3:
+            deleteAtLoc();
+            break;
+        case 7:
             exit(1);
 
         default:
