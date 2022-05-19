@@ -11,8 +11,64 @@ struct node
 struct node *root = NULL;
 int len = 0;
 
+void append();
+void addbegin();
+void addafter();
+int length();
+void display();
+void delete ();
+void reverse();
+int main()
+{
+    int ch;
+    while (1)
+    {
+        printf("\nSingle linked list operations: \n\n");
+        printf("1. Append at end    2. Add at begin\n");
+        printf("3. Add after        4. Length\n");
+        printf("5. Display all      6. Delete\n");
+        printf("7. Reverse          8. Exit\n\n");
+
+        printf("Enter your choice: \n");
+        scanf("%d", &ch);
+
+        switch (ch)
+        {
+        case 1:
+            append();
+            break;
+        case 2:
+            addbegin();
+            break;
+        case 3:
+            addafter();
+            break;
+        case 4:
+            len = length();
+            printf("length is: %d\n", len);
+            break;
+        case 5:
+            display();
+            break;
+        case 6:
+            delete ();
+            break;
+        case 7:
+            reverse();
+            break;
+        case 8:
+            exit(1);
+            break;
+        default:
+            printf("Invalid choice");
+            break;
+        }
+    }
+}
+
 void append()
 {
+
     struct node *temp;
     temp = (struct node *)malloc(sizeof(struct node));
     // temperory node is created with two fields
@@ -158,51 +214,4 @@ void reverse()
     }
     root = prevNode;
     display();
-}
-int main()
-{
-    int ch;
-    while (1)
-    {
-        printf("\nSingle linked list operations: \n\n");
-        printf("1. Append at end    2. Add at begin\n");
-        printf("3. Add after        4. Length\n");
-        printf("5. Display all      6. Delete\n");
-        printf("7. Reverse          8. Exit\n\n");
-
-        printf("Enter your choice: \n");
-        scanf("%d", &ch);
-
-        switch (ch)
-        {
-        case 1:
-            append();
-            break;
-        case 2:
-            addbegin();
-            break;
-        case 3:
-            addafter();
-            break;
-        case 4:
-            len = length();
-            printf("length is: %d\n", len);
-            break;
-        case 5:
-            display();
-            break;
-        case 6:
-            delete ();
-            break;
-        case 7:
-            reverse();
-            break;
-        // case 8:
-        //     exit(1);
-        //     break;
-        default:
-            printf("Invalid choice");
-            break;
-        }
-    }
 }
