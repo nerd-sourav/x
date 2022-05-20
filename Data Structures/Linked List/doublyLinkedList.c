@@ -15,11 +15,10 @@ void display()
     while (temp != NULL)
     {
 
-        printf("%d", &temp->data);
+        printf("%d->", temp->data);
         temp = temp->next;
     }
 }
-
 int lenght()
 {
     struct Node *temp = head;
@@ -30,7 +29,56 @@ int lenght()
         temp = temp->next;
     }
 }
+void append()
+{
+    struct Node *temp;
+    temp = (struct Node *)malloc(sizeof(struct Node)); // mem allocated
+    temp->prev = NULL;
+    temp->next = NULL;
+    printf("Enter data: ");
+    scanf("%d", &temp->data);
+    // new node created;
+    // append means add only at the end;
+    if (head == NULL)
+    {
+        head = temp;
+    }
+    else
+    {
+        struct Node *p = head;
+        while (p->next != NULL)
+        {
+            p = p->next;
+        }
+        p->next = temp;
+        temp->prev = p;
+    }
+}
 
+void appendAtLoc()
+{
+    struct Node *temp;
+    temp = (struct Node *)malloc(sizeof(struct Node));
+    printf("Enter data1: ");
+    scanf("%d", &temp->data);
+    temp->link = NULL;
+    printf("Enter location: ");
+    int loc;
+    scanf("%d", &loc);
+
+    struct Node *p = head;
+    while (i < loc)
+    {
+        p = p->next;
+        i++;
+    }
+
+    temp->next = p->next;
+    p->next->prev = temp;
+
+    p->next = temp;
+    temp->prev = p;
+}
 int main()
 {
 
@@ -47,12 +95,12 @@ int main()
 
         switch (choice)
         {
-        // case 0:
-        //     append();
-        //     break;
-        // case 1:
-        //     appendAtLoc();
-        //     break;
+        case 0:
+            append();
+            break;
+        case 1:
+            appendAtLoc();
+            break;
         case 2:
             display();
             break;
