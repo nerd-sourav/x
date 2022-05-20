@@ -57,27 +57,38 @@ void append()
 
 void appendAtLoc()
 {
-    struct Node *temp;
-    temp = (struct Node *)malloc(sizeof(struct Node));
-    printf("Enter data1: ");
-    scanf("%d", &temp->data);
-    temp->link = NULL;
-    printf("Enter location: ");
-    int loc;
+    int loc, i = 1;
+    printf("Enter locations: ");
     scanf("%d", &loc);
 
+    struct Node *temp;
+    temp = (struct Node *)malloc(sizeof(struct Node)); // mem allocated
+    temp->prev = NULL;
+    temp->next = NULL;
+    printf("Enter data: ");
+    scanf("%d", &temp->data);
+
     struct Node *p = head;
-    while (i < loc)
+    if (loc == 1)
     {
-        p = p->next;
-        i++;
+        temp->next = head;
+        head->prev = temp;
+        head = temp;
     }
+    else
+    {
+        while (i < loc - 1)
+        {
+            p = p->next;
+            i++;
+        }
 
-    temp->next = p->next;
-    p->next->prev = temp;
+        temp->next = p->next;
+        p->next->prev = temp;
 
-    p->next = temp;
-    temp->prev = p;
+        p->next = temp;
+        temp->prev = p;
+    }
 }
 int main()
 {
