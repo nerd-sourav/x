@@ -54,7 +54,6 @@ void append()
         temp->prev = p;
     }
 }
-
 void appendAtLoc()
 {
     int loc, i = 1;
@@ -68,7 +67,6 @@ void appendAtLoc()
     printf("Enter data: ");
     scanf("%d", &temp->data);
 
-    struct Node *p = head;
     if (loc == 1)
     {
         temp->next = head;
@@ -77,6 +75,7 @@ void appendAtLoc()
     }
     else
     {
+        struct Node *p = head;
         while (i < loc - 1)
         {
             p = p->next;
@@ -88,6 +87,47 @@ void appendAtLoc()
 
         p->next = temp;
         temp->prev = p;
+    }
+}
+void deleteAnyNode()
+{
+    int loc;
+    printf("Enter Location: ");
+    scanf("%d", &loc);
+
+    if (loc == 1)
+    {
+        // deleting the first node;
+        // 1.break connection of the second node;
+        // 2.move head to second node;
+        // 3.break conndecion of second node frm the first node;
+        // 4.free the node
+
+        struct Node *temp = head;
+        temp->next->prev = NULL;
+        head = temp->next;
+        temp->next = NULL;
+        free(temp);
+    }
+    else
+    {
+        int i = 1;
+
+        struct Node *prevNode, *currentNode;
+        prevNode = NULL;
+        currentNode = head;
+        while (i < loc)
+        {
+
+            prevNode = currentNode;
+            currentNode = currentNode->next;
+
+            i++;
+        }
+        prevNode->next = currentNode->next;
+        currentNode->next = NULL;
+
+        free(currentNode);
     }
 }
 int main()
@@ -115,9 +155,9 @@ int main()
         case 2:
             display();
             break;
-        // case 3:
-        //     deleteAtLoc();
-        //     break;
+        case 3:
+            deleteAnyNode();
+            break;
         case 7:
             exit(1);
 
