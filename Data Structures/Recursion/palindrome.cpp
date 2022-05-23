@@ -7,9 +7,9 @@ int palindrome(string s, int start, int end)
     {
         return ans;
     }
-    if (start <= end)
+    if (start >= end)
     {
-        return ans;
+        return 1;
     }
     return palindrome(s, start + 1, end - 1);
 }
