@@ -1,0 +1,1 @@
+{"name":"Local: linear_search","url":"e:\\C++ codes\\Data Structures\\Recursion\\linear_search.cpp","tests":[{"id":1653579999688,"input":"5\n1 2 3 4 5\n7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\C++ codes\\Data Structures\\Recursion\\linear_search.cpp","group":"local","local":true}
