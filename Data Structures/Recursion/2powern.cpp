@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// changes made
 int power(int base, int pow)
 {
     if (pow == 0)
