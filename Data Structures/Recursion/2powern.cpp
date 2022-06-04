@@ -4,15 +4,6 @@ using namespace std;
 //  changes again made
 //  changes again made
 // changes made
-//  changes again made
-//  changes again made
-// hanges again made
-// changes made
-//  changes again made
-//  changes again made
-// changes made
-//  changes again made
-//  changes again made
 // hanges again made
 // changes made
 //  changes again made
@@ -22,6 +13,7 @@ using namespace std;
 //  changes again made
 int power(int base, int pow)
 {
+    //
     if (pow == 0)
     {
         return 1;
