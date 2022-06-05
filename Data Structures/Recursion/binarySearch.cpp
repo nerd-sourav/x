@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 // changes made
-// changes made
+// changes mad
 
 int binarySearch(int arr[], int start, int end, int key)
 {
