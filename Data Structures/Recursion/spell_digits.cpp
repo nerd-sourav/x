@@ -3,7 +3,7 @@ using namespace std;
 void spell(int n, string arr[10])
 {
 
-    // base case
+    // base ca
 
     if (n <= 0)
     {
