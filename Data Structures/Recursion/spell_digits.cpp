@@ -3,7 +3,8 @@ using namespace std;
 void spell(int n, string arr[10])
 {
 
-    // base changes
+    // base changes made
+
     if (n <= 0)
     {
         return;
