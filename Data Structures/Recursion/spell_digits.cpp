@@ -4,7 +4,7 @@ void spell(int n, string arr[10])
 {
 
     // base changes made
-    // chames amde
+    // changes made
     if (n <= 0)
     {
         return;
