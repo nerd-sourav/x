@@ -4,7 +4,7 @@ void spell(int n, string arr[10])
 {
 
     // base changes made
-    // changes made
+    // changes mad
     // changes made
     if (n <= 0)
     {
