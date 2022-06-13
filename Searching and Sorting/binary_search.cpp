@@ -4,7 +4,7 @@ using namespace std;
 
 int binarySearch(int arr[], int size, int key)
 {
-
+    // changes made
     int start = 0;
     int end = size - 1;
 
