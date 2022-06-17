@@ -8,6 +8,7 @@ int binarySearch(int arr[], int size, int key)
     // chanegs madeS
     // CHANEGS MAD
     // changes made
+    // cahnegs mades
     //  changes madew
     // chanegs made
     int start = 0;
