@@ -6,6 +6,7 @@ int binarySearch(int arr[], int size, int key)
 {
     // changes made
     // chanegs madeS
+    //cganges mde
     //chanege made
     // CHANEGS MAD
     // changes made
