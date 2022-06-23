@@ -5,8 +5,10 @@ using namespace std;
 int binarySearch(int arr[], int size, int key)
 {
     // CHANEA MADE
-    //chanegs amde
+    // changes made
+    // chanegs amde
     //  chanegs made
+    // changes made
     int start = 0;
     int end = size - 1;
 
