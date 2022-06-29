@@ -30,7 +30,10 @@ int BinarySearch(int arr[], int start, int end, int key)
 // changes made
 // changes made
 // changes mades
-// chanegs made
+// chanegs made.
+// changes made
+
+// changes made
 int Bsearch(int arr[], int start, int end, int key)
 {
 
