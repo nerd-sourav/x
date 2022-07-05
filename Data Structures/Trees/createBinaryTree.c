@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-//changes made
+// changes made
+// chanegs made
 struct node
 {
     int data;
