@@ -4,6 +4,10 @@
 // chanegs made
 // cganges made
 // changes made
+// chanegs made
+// cganges made
+// changes made
+// changea made
 // changea made
 struct node
 {
