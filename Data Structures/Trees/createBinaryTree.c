@@ -2,7 +2,6 @@
 #include <stdlib.h>
 // changes made
 // chanegs made
-// cganges made
 // changes made
 // chanegs made
 // cganges made
