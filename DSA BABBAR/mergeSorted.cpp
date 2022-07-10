@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 // changes made
-// changes mad\\
+// changes made
 // changes made
 void merge(int arr1[], int n, int arr2[], int m, int arr3[])
 {
