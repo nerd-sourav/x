@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include <cmath>
 using namespace std;
-// changes made
+// changes madee
 // changes made
 // changes made
 void merge(int arr1[], int n, int arr2[], int m, int arr3[])
