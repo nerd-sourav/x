@@ -3,7 +3,7 @@
 using namespace std;
 // changes madeee
 // changes madeee
-// changes made
+// changes madee
 void merge(int arr1[], int n, int arr2[], int m, int arr3[])
 {
     int i = 0, j = 0, k = 0;
