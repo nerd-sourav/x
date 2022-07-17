@@ -17,7 +17,7 @@ using namespace std;
 //         return index;
 
 //     return linearSearch(arr, index + 1, n, k);
-// }
+// }//
 int linearSearch(int arr[], int n, int k)
 {
 
