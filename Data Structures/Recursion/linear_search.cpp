@@ -10,7 +10,7 @@ using namespace std;
 //     if (n == 0)
 //         return -1;
 // changes madeee
-//     if (n == 1)
+//     if (n == 1)//
 //         return 0;
 
 //     if (arr[index] == k)
