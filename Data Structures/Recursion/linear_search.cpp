@@ -9,7 +9,7 @@ using namespace std;
 //         return -1;x
 //     if (n == 0)
 //         return -1;
-// changes madeee
+// changes madeee.
 // changses
 // changes made.
 // changes made
