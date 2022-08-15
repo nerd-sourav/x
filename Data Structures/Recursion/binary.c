@@ -27,10 +27,10 @@ int BinarySearch(int arr[], int start, int end, int key)
     }
     return -1;
 }
-//changes made
-
+// changes made
 
 // changes made
+//  changes made
 int Bsearch(int arr[], int start, int end, int key)
 {
 
