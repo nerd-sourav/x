@@ -3,6 +3,7 @@
 
 int BinarySearch(int arr[], int start, int end, int key)
 {
+    //changes amde
     // int start = 0;
 
     while (start <= end)
@@ -28,7 +29,7 @@ int BinarySearch(int arr[], int start, int end, int key)
     return -1;
 }
 // changes made
-// changes made
+// changes made 
 
 // changes made
 //  changes made
