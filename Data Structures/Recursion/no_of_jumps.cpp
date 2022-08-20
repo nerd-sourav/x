@@ -11,6 +11,7 @@ int jumps(int n)
     return jumps(n - 1) + jumps(n - 2) + jumps(n - 3);
 }
 // changes made
+// changes made
 int main()
 {
     int ans = jumps(4);
