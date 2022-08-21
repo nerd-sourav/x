@@ -12,7 +12,8 @@ int jumps(int n)
 }
 // changes made
 // changes
-//changes made
+// changes made4
+/// changes made
 int main()
 {
     int ans = jumps(4);
