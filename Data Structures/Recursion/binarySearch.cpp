@@ -4,8 +4,10 @@ using namespace std;
 // changes made
 // changes mad
 // changes made
+// changes made
+/
 
-int binarySearch(int arr[], int start, int end, int key)
+    int binarySearch(int arr[], int start, int end, int key)
 {
     if (start > end)
     {
