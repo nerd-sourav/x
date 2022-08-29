@@ -5,8 +5,6 @@ using namespace std;
 // changes mad
 // changes made
 // changes made
-// changes made
-// changes made
 
 int binarySearch(int arr[], int start, int end, int key)
 {
