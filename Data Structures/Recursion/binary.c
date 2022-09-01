@@ -6,7 +6,7 @@ int BinarySearch(int arr[], int start, int end, int key)
     // changes amde
     // changes made/
     // changes made
-    //
+    // changes made
     //  int start = 0;
 
     while (start <= end)
