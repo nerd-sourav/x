@@ -4,6 +4,7 @@ using namespace std;
 // using XOR Operator
 // changes made
 // changes made
+// changes made
 int main()
 {
     int n;
