@@ -3,6 +3,7 @@
 using namespace std;
 // using XOR Operator
 // changes made
+// c
 int main()
 {
     int n;
