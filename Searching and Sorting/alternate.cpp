@@ -12,6 +12,8 @@ void swap(int arr[], int n)
         arr[i + 1] = temp;
     }
 }
+// changes made
+// changes made
 
 int main()
 {
