@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 // using XOR Operator
-// changes
+// chang
 int main()
 {
     int n;
