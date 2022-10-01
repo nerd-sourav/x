@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include <cmath>
 using namespace std;
-// using XOR Operat
+// using XOR Opera
 int main()
 {
     int n;
