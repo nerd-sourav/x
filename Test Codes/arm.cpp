@@ -2,15 +2,16 @@
 using namespace std;
 int main()
 {
-    int n = 12345;
-    int digits = 0;
-    int y = n;
-    int r = 0;
-    int q = 0;
-    while (y >= 1)
+    int i = -5;
+    while (i <= 5)
     {
-        digits++;
-        y = y / 10;
+        if (i >= 0)
+            break;
+        else
+        {
+            i++;
+        }
+        cout << "gg ";
     }
 
     return 0;
