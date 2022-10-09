@@ -1,9 +1,6 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-
-// } Driver Code Ends
-
 class Solution
 {
     bool isPrime(int n)
