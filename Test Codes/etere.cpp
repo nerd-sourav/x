@@ -1,22 +1,46 @@
-// C++ Program to print the elements of a
-// Two-Dimensional array
-#include <iostream>
+
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    // an array with 3 rows and 2 columns.
-    int x[3][2] = {{0, 1}, {2, 3}, {4, 5}};
+    
+
+    vector<int> a{5, 3, 2, 8, 4, 1};
+    int n = a.size();
+    int currSum = 0;
     int sum = 0;
-    // output each array element's value
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < 2; j++)
+        sum += a[i];
+    }
+    // cout << sum << endl;
+    sort(a.begin(), a.end());
+    int i = n - 1;
+    int count = 0;
+
+    // for (int i = n - 2; i >= 0; i--)
+    // {
+    //     cout << a[i] << " ";
+    // }
+
+    while (i >= 0)
+    {
+        // cout << a[i] << " ";
+        currSum += a[i];
+        // cout << currSum << endl;
+        if (sum - currSum > currSum)
         {
-            cout << "Element at x[" << i
-                 << "][" << j << "]: ";
-            cout << x[i][j] << endl;
-                }
+            i--;
+            cout << "sum - currSum= " + (sum - currSum) << endl;
+            count++;
+        }
+        else
+        {
+            cout << "else";
+            cout << count;
+        }
+        i--;
     }
 
     return 0;
