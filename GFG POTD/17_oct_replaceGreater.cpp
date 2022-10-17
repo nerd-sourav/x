@@ -3,8 +3,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Back-end complete function Template for C++
-
 class Solution
 {
 public:
