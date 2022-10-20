@@ -3,8 +3,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// User function Template for C++
-class Solution
+/
+    class Solution
 {
 public:
     vector<int> reverseSpiral(int r, int c, vector<vector<int>> &a)
