@@ -9,7 +9,7 @@ class Solution
 public:
     int findMin(int n, char a[])
     {
-        // code here
+
         int r = 0, g = 0, b = 0;
         for (int i = 0; i < n; i++)
         {
