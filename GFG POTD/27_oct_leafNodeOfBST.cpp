@@ -8,7 +8,7 @@ class Solution
 public:
     vector<int> leafNodes(int arr[], int n)
     {
-        // code here
+
         vector<int> ans;
         stack<int> stk;
 
