@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-g class Solution
+class Solution
 {
 public:
     vector<int> satisfyEqn(int A[], int N)
