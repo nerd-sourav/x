@@ -6,7 +6,7 @@ class Solution
 public:
     int largestArea(int n, int m, int k, vector<vector<int>> &enemy)
     {
-        //  code here
+
         if (k == 0)
             return m * n;
         vector<int> rows(n, 0);
