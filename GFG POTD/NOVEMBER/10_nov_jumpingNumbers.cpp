@@ -6,7 +6,7 @@ class Solution
 public:
     long long jumpingNums(long long x)
     {
-        // code here
+
         if (x <= 9)
             return x;
         queue<int> q;
