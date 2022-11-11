@@ -17,7 +17,7 @@ public:
     }
     string isSumOfTwo(int N)
     {
-        // code here
+
         for (int i = 1; i < N; i++)
         {
             if (isPrime(i) == true && isPrime(N - i) == true)
