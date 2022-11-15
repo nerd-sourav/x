@@ -7,7 +7,7 @@ class Solution
 public:
     int longestPerfectPiece(int arr[], int n)
     {
-        // code here
+
         int ans = 0;
         map<int, int> mp;
         for (int i = 0, j = 0; i < n; i++)
