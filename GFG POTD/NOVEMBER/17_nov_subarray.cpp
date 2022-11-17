@@ -5,8 +5,6 @@ using namespace std;
 
 #define ll long long
 
-// } Driver Code Ends
-// User function template for C++
 class Solution
 {
 public:
