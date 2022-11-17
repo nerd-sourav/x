@@ -1,4 +1,3 @@
-//{ Driver Code Starts
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -8,8 +7,6 @@ using namespace std;
 class Solution
 {
 public:
-    // #define ll long long
-
     ll countSubarray(int arr[], int n, int k)
     {
         // code here
