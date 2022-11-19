@@ -83,9 +83,6 @@ Node *buildTree(string str)
     return root;
 }
 
-// } Driver Code Ends
-// User function Template for C++
-
 class Solution
 {
 public:
