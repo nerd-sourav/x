@@ -149,7 +149,6 @@ public:
     }
 };
 
-/* Driver program to test size function*/
 int main()
 {
     int t;
