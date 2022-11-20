@@ -1,5 +1,4 @@
-//{ Driver Code Starts
-// Initial Template for C++
+
 
 // Initial Template for C++
 // Back-end complete function Template for C++
