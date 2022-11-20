@@ -1,6 +1,5 @@
 
 
-// Back-end complete function Template for C++
 // User function Template for C++
 #include <bits/stdc++.h>
 using namespace std;
