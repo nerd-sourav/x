@@ -8,7 +8,7 @@ class Solution
 public:
     long long count(long long x)
     {
-        // Code Here
+
         // Code Here
         vector<int> list;
         int ct = 0;
