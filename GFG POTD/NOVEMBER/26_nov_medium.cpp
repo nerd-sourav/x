@@ -25,9 +25,6 @@ void inorder(Node *root)
     inorder(root->right);
 }
 
-// } Driver Code Ends
-// User function Template for C++
-
 /*
 class Node
 {
