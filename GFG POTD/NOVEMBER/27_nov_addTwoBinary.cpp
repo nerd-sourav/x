@@ -1,7 +1,7 @@
 //{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
-// } Driver C
+// } Driver
 class Solution
 {
 public:
