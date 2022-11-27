@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// } Driver Code E
+// } Driver Code
 
 class Solution
 {
