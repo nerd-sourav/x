@@ -79,8 +79,6 @@ public:
     }
 };
 
-//{ Driver Code Starts.
-
 void printAns(vector<int> &ans)
 {
     for (auto &x : ans)
