@@ -49,8 +49,6 @@ public:
     }
 };
 
-//{ Driver Code Starts.
-
 int main()
 {
     // your code goes here
