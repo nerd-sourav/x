@@ -5,7 +5,7 @@ class Solution
 public:
     long long int numoffbt(long long int arr[], int n)
     {
-        // Your code goes here
+
         const long long int MOD = 1000000007;
         long long int mn = INT_MAX, mx = INT_MIN;
         for (int i = 0; i < n; i++)
