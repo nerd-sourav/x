@@ -1,6 +1,4 @@
-//{ Driver Code Starts
-// C++ program to rearrange an array in minimum
-// maximum form
+
 #include <bits/stdc++.h>
 using namespace std;
 
