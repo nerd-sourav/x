@@ -39,8 +39,6 @@ public:
     }
 };
 
-//{ Driver Code Starts.
-
 // Driver program to test above function
 int main()
 {
