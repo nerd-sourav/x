@@ -3,9 +3,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// } Driver Code Ends
-// User function Template for C++
-
 class Solution
 {
 public:
@@ -50,7 +47,7 @@ int main()
     int t = 1;
     cin >> t;
 
-        while (t--)
+    while (t--)
     {
         // Input
 
