@@ -34,7 +34,7 @@ class GFG {
 // } Driver Code Ends
 
 
-//User function Template for Java
+
 
 class Solution {
     static int shotestPath(int[][] mat, int n, int m, int k) {
