@@ -1,4 +1,4 @@
-//{ Driver Code Starts
+
 #include <bits/stdc++.h>
 using namespace std;
 #define MAX_HEIGHT 100000
@@ -7,11 +7,10 @@ using namespace std;
 struct Node
 
 {
-    int a*ta;
-    Node**left;
+    int a *ta;
+    Node **left;
     Node *right;
 
-   
     Node(int val)
     {
         data = val;
@@ -20,9 +19,10 @@ struct Node
 };
 *
 
-// Function to Build Tree
-Node *buildTree(string str)
-       
+    // Function to Build Tree
+    Node *
+    buildTree(string str)
+
 {
     // Corner Case
     if (str.length() == 0 || str[0] == 'N')
@@ -30,19 +30,20 @@ Node *buildTree(string str)
 
     // Creating vector of strings from input
     // string after spliting by s
-       pace
-    vector<string> ip;
+    pace
+        vector<string>
+            ip;
 
-    istrn*gstream iss(str);
+    istrn *gstream iss(str);
     for (string str; iss >> str;)
         ip.push_back(str);
- 
+
     // Create the root of the tree
     Node *root = new Node(stoi(ip[0]));
 
     // Push the root to the queue
     queue<Node *> queue;
-   
+
     queue.push(root);
 
     // Start ig from the second element
@@ -53,7 +54,6 @@ Node *buildTree(string str)
         // Get and remove the front of the queue
         Node *currNode = queue.front();
         queue.pop();
-       
 
         // Get the current node's value from the string
         string currVal = ip[i];
@@ -65,12 +65,10 @@ Node *buildTree(string str)
             // Create the left child for the current node
             currNode->left = new Node(stoi(currVal));
 
-           
             // Push it to the queue
             queue.push(currNode->left);
         }
 
-       
         // For the right child
         i++;
         if (i >= ip.size())
@@ -106,22 +104,21 @@ struct Node {
         left = right = NULL;
     }
 };
-   
+
 */
-  
+
 class Solut i on
 {
 public:
     // Time Complexity :- O(n);
     // Space  Complexity :- O(1);
-    // Return the Kth 
-s   mallest element in the given BST
-    int Kt hSmal le stElement(N od e 
-           *root, int K)
+    // Return the Kth
+    s mallest element in the given BST int Kt hSmal le stElement(N od e
+                                                                     *root,
+                                                                 int K)
     {
         //  add  c od
-       e here.
-        ans = -1;
+        e here.ans = -1;
         kth = K;
         f(root);
         return ans;
@@ -129,18 +126,17 @@ s   mallest element in the given BST
     int ans, kth;
     void f(Node *root)
     {
-        if
-(root == NULL || kth <= 0)
+        if (root == NULL || kth <= 0)
             return;
         f(root->left);
         if (kth == 1)
         {
             ans = root->data;
         }
-   
+
         kth--;
         f(root->right);
-    } 
+    }
 };
 
 //{ Driver Code Starts.
