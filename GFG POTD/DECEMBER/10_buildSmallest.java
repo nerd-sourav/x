@@ -4,16 +4,11 @@
 import java.util.*;
 import java.io.*;
 
-class GFG
-{
-public
-    static void main(String args[]) throws IOException
-    {
-        BufferedReader read =
-            new BufferedReader(new InputStreamReader(System.in));
+class GFG {
+    public static void main(String args[]) throws IOException {
+        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(read.readLine());
-        while (t-- > 0)
-        {
+        while (t-- > 0) {
             int N = Integer.parseInt(read.readLine());
             String str = read.readLine();
             Solution ob = new Solution();
@@ -26,43 +21,36 @@ public
 
 // User function Template for Java
 
-class Solution
-{
-    static String buildLowestNumber(String str, int k)
-    {
+class Solution {
+    String buildLowestNumber(String str, int k) {
         // code here.
         Stack<Character> st = new Stack<>();
-        for (int i = 0; i < str.length(); i++)
-        {
+        for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
 
-            // check lowest be  weighted pos
-            while (!st.isEmpty() && k > 0 && st.peek() > ch)
-            {
+            // check lowest be weighted pos
+            while (!st.isEmpty() && k > 0 && st.peek() > ch) {
                 st.pop();
                 k--;
             }
 
             st.push(ch);
         }
-        // s2.  k still remains
-        while (!st.isEmpty() && k > 0)
-        {
+        // s2. k still remains
+        while (!st.isEmpty() && k > 0) {
             st.pop();
             k--;
         }
 
         // s3
         StringBuilder sb = new StringBuilder();
-        while (!st.isEmpty())
-        {
+        while (!st.isEmpty()) {
             sb.append(st.pop());
         }
 
         // handling leading zeros
         int n = sb.length();
-        for (int i = n - 1; i >= 0; i--)
-        {
+        for (int i = n - 1; i >= 0; i--) {
             if (sb.charAt(i) != '0') // sb ="001" => 100
                 break;
 
