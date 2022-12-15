@@ -17,7 +17,7 @@ public:
         int rem = N % 26;
 
         string ans = "";
-        // for 26 character
+        // for 26 charac
         while (count > 0)
         {
             int i = 0;
