@@ -1,11 +1,7 @@
 class Solution {
   public:
     int minimumCost(vector<vector<int>>& flights, int n, int k) {
-        
-        // code here
-        
-        
-        // Adj
+       
         vector<vector<vector<int>>>adj(n+1);
         for(int i=0;i<flights.size();i++)
         {
