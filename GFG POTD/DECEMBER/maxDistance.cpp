@@ -9,7 +9,7 @@ class Solution{
   public:
     int maxDistance(int arr[], int n) 
     { 
-        // Complete the function
+       
         int sum[n],diff[n];
         for(int i=0;i<n;i++){
             sum[i]=(arr[i]+i);
