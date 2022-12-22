@@ -10,7 +10,7 @@ using namespace std;
 
 class Solution{
 public:
-    //Function to count subarrays with sum equal to 0.
+   
     long long int findSubarray(vector<long long int> &arr, int n ) {
         //code here
 long long ans=0; unordered_map<long, long>mp;
