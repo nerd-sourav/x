@@ -7,7 +7,7 @@ using namespace std;
 class Solution {
 public:
     int maxCoins(int N, vector<int> &arr) {
-        // c
+        
         int n = arr.size();
         vector<vector<int>>dp(n+2, vector<int>(n+1, 0));
         arr.push_back(1);
