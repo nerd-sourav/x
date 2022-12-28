@@ -96,7 +96,7 @@ Node* buildTree(string str) {
 
         currVal = ip[i];
 
-        // If the right child is not null
+        // If the right child is not nl
 
         if (currVal != "N") {
 
