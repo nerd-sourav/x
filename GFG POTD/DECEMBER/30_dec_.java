@@ -1,6 +1,6 @@
 //{ Driver Code Starts
 
-//Initial Template for Java
+//Initial Template for
 
 //Initial Template for Java
 
