@@ -3,9 +3,7 @@
 using namespace std;
 
 
-// } Driver Code Ends
-//User function Template for C++
-
+// } Driver Code E
 class Solution {
   public:
   int binarySearch(vector<int> &temp,int key,int s){
