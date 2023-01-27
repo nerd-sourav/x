@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// } Driver Cod
+// } Driver
 class Solution
 {
     const long mod = 1e9 + 7;
