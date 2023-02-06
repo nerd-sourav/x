@@ -15,10 +15,6 @@ struct Node {
         left = right = NULL;
     }
 };
-
-
-
-
 // } Driver Code Ends
 //User function Template for C++
 /*
