@@ -21,7 +21,7 @@ void printList(Node *node) {
 }
 
 struct Node *inputList() {
-    int n; // length of link list
+    int n; // length of linkedl lst
     scanf("%d ", &n);
 
     char data;
