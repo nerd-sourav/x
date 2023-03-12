@@ -2,8 +2,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-// } Driver Code Ends
 class Solution {
   public:
     vector<int> solveQueries(int N, int num, vector<int> &A, vector<vector<int>> &Q) {
