@@ -4,9 +4,6 @@
 using namespace std;
 
 
-// } Driver Code Ends
-//User function Template for C++
-
 class Solution {
 public:
     vector<int> findMaxRow(vector<vector<int>> mat, int N) {
