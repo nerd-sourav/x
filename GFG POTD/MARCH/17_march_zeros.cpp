@@ -1,8 +1,5 @@
-
 #include <bits/stdc++.h>
 using namespace std;
-
-
 long long int no_of_subarrays(int n, vector<int> &arr) {
     // Write your code here.
         // Write your code here.
