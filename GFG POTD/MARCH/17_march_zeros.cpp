@@ -3,9 +3,6 @@
 using namespace std;
 
 
-// } Driver Code Ends
-// User function Template for C++
-
 long long int no_of_subarrays(int n, vector<int> &arr) {
     // Write your code here.
         // Write your code here.
