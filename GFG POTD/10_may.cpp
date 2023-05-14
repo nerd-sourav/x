@@ -1,5 +1,5 @@
   int totalCuts(int N,int K,vector<int> &A){
-        
+        //c
         int left[N],right[N];
         left[0]=A[0];
         for(int i=1;i<N;i++){
