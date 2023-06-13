@@ -1,6 +1,6 @@
 //{ Driver Code Starts
 
-// C++ program to find predecessor and successor in a BST
+// C+sor in a BST
 
 #include "bits/stdc++.h"
 
