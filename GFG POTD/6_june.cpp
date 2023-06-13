@@ -1,6 +1,5 @@
 //{ Driver Code Starts
 
-// C+sor in a BST
 
 #include "bits/stdc++.h"
 
