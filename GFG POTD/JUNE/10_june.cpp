@@ -16,7 +16,7 @@ class Solution
 
         {
 
-            // Your code goes here
+
 
 auto merge = [&](int l, int mid, int r) {
 
