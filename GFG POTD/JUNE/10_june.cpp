@@ -108,7 +108,7 @@ auto merge = [&](int l, int mid, int r) {
 
 
 void Rearrange(int arr[], int n);
-
+//driver code
 int main() 
 
 { 
