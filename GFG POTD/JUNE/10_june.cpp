@@ -106,7 +106,6 @@ auto merge = [&](int l, int mid, int r) {
 
 };
 
-//{ Driver Code Starts.
 
 void Rearrange(int arr[], int n);
 
