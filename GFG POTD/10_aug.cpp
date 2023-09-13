@@ -4,7 +4,7 @@ const int mod=1e9+7;
 using namespace std;
 
 // } Driver Code Ends
-// function to find longest common subsequence
+
 
 class Solution
 {
