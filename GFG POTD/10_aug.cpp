@@ -9,7 +9,7 @@ using namespace std;
 class Solution
 {
     public:
-    //Function to find the length of longest common subsequence in two strings.
+    
     int lcs(int n, int m, string s1, string s2)
     {
         // your code here
